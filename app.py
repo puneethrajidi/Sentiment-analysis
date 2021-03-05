@@ -42,7 +42,7 @@ def lemmatize(text):
     updated.append(lemmatizer.lemmatize(word))
   sentence=' '.join(updated)
   return sentence
-df=pd.read_csv('https://raw.githubusercontent.com/puneethrajidi/Sentiment-analysis/main/Updated_dataset.csv')
+df=pd.read_csv('Updated_dataset.csv')
 x=df['review']
 y=df['Three sentiments']
 from sklearn.pipeline import Pipeline
