@@ -1,6 +1,5 @@
 streamlit
 contractions
 pandas
-re
 nltk
 sklearn
